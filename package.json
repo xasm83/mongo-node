@@ -1,0 +1,9 @@
+{
+    "dependencies": {
+        "express": "4.2.x",
+        "body-parser": "1.10.2",
+        "mongodb": "x",
+        "serve-static":"x"
+    },
+    "name": "mean"
+}

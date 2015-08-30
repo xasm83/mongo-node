@@ -1,0 +1,16 @@
+<html ng-app="meanApp">
+<head>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="controllers/client-controller.js"></script>
+    <script src="services/post-service.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+</head>
+<body ng-controller="clientController">
+
+<div ng-repeat="post in posts  track by post._id">
+    <p>{{post.id}}</p>
+    <p>{{post._id}}</p>
+</div>
+
+</body>
+</html>
